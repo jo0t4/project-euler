@@ -18,7 +18,7 @@ int main() {
 				goto jump;
 		}
 		
-		printf("ANSWER = %d\n", a);
+		printf("Answer: %d\n", a);
 		break;
 
 	jump:

@@ -21,7 +21,7 @@ int main() {
 		result += multiple_5 * 5;
 	}
 
-	printf("ANSWER = %d\n", result);
+	printf("Answer: %d\n", result);
 
 	return 0;
 }

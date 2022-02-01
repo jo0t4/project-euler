@@ -19,7 +19,7 @@ int main() {
 		sumSquare += pow(natural, 2);
 	}
 
-	printf("ANSWER = %d\n", (int)pow(squareSum, 2) - sumSquare);
+	printf("Answer: %d\n", (int)pow(squareSum, 2) - sumSquare);
 
 	return 0;
 }
