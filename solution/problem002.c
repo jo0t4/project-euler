@@ -11,12 +11,14 @@ int main() {
 
 	int fiboA = 0, fiboB = 1, fiboC, sum = 0;
 
-	for (fiboC = 1; fiboC <= 4000000; fiboC = fiboA + fiboB) {
+	for (fiboC = 1; fiboC <= 4000000; fiboC = fiboA + fiboB) 
+	{
 		fiboC = fiboA + fiboB;
 		fiboA = fiboB;
 		fiboB = fiboC;
 
-		if (fiboC % 2 == 0) {
+		if (fiboC % 2 == 0) 
+		{
 			sum += fiboC;
 		}
 	}
