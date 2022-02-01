@@ -10,15 +10,18 @@ int main() {
 
 	int a, b, remainder = 0;
 
-	for (a = 2520; ; a += 10) {
-		for (b = 3; b <= 20; b++) {
+	for (a = 2520; ; a += 10) 
+	{
+		for (b = 3; b <= 20; b++) 
+		{
 			if (a % b != 0)
-				goto here;
+				goto jump;
 		}
+		
 		printf("ANSWER = %d\n", a);
 		break;
 
-	here:
+	jump:
 		remainder = 0;
 	}
 
