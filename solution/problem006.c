@@ -11,15 +11,15 @@
 
 int main() {
 
-	int natural, square_sum = 0, sum_square = 0;
+	int natural, squareSum = 0, sumSquare = 0;
 
 	for (natural = 1; natural <= 100; natural++) 
 	{
-		square_sum += natural;
-		sum_square += pow(natural, 2);
+		squareSum += natural;
+		sumSquare += pow(natural, 2);
 	}
 
-	printf("ANSWER = %d\n", (int)pow(square_sum, 2) - sum_square);
+	printf("ANSWER = %d\n", (int)pow(squareSum, 2) - sumSquare);
 
 	return 0;
 }
