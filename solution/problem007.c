@@ -27,12 +27,11 @@ int main() {
                                 if(counter == 9999)
                                 {
                                 printf("Answer: %d\n", primeNumber);
-                                        goto end;
+                                goto end;
                                 }
                         }
                 }
         }
-
         end:
 
         return 0;
