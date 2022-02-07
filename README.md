@@ -1,6 +1,6 @@
 ## Project Euler
 
-This repository contains solutions about the mathematical problems proposed by the [Project Euler](https://projecteuler.net/about) website. The solutions presented here will be written using the C programming language.
+This repository contains solutions to some of the mathematical problems proposed by the website [Project Euler](https://projecteuler.net/about). The solutions presented here will be written using C or Python programming languages.
 
 ### About Project Euler
 
