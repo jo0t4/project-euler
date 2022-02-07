@@ -3,12 +3,11 @@
 # and the sum of the digits in the number 10! is 3 + 6 + 2 + 8 + 8 + 0 + 0 = 27.
 # Find the sum of the digits in the number 100!
 
-number, factorialSum = 1, 0
+import math
 
-for x in range(2, 101):
-	number *= x
+factorialSum = 0
 
-for x in str(number):
+for x in str(math.factorial(100)):
 	factorialSum += int(x)
 
 print(f"Answer: {factorialSum}")
