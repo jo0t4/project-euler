@@ -15,7 +15,7 @@
 
 int main() {
 
-	int x, longestChainNumber, terms = 1, highestTerm = 0;
+	int x, numberWithLongestChain, chain = 1, biggestChain = 0;
 	long int number;
 						
 	for (x = 13; x <= 1000000; x++) 
@@ -26,24 +26,24 @@ int main() {
 				if(number % 2 == 0)
 				{
 					number = number / 2;
-					terms++;
+					chain++;
 				} 
 				else 
 				{
 					number = number * 3 + 1;
-					terms++;
+					chain++;
 				}
 			} 
-		if (terms > highestTerm) 
+		if (chain > biggestChain) 
 		{
-			highestTerm = terms;
-			longestChainNumber = x;
+			biggestChain = chain;
+			numberWithLongestChain = x;
 		} 
 						          
-		terms = 1;
+		chain = 1;
 	}
 
-	printf("Answer: %d\n", longestChainNumber);
+	printf("Answer: %d\n", numberWithLongestChain);
 
 	return 0;
 }
