@@ -8,17 +8,17 @@
 
 int main() {
 
-	int result = 0, multiple_3, multiple_5;
+	int result = 0, multipleThree, multipleFive;
 
-	for (multiple_3 = 0; multiple_3 * 3 < 1000; multiple_3++) 
+	for (multipleThree = 0; multipleThree * 3 < 1000; multipleThree++) 
 	{
-		if (multiple_3 % 5 != 0)
-			result += multiple_3 * 3;
+		if (multipleThree % 5 != 0)
+			result += multipleThree * 3;
 	}
 
-	for (multiple_5 = 0; multiple_5 * 5 < 1000; multiple_5++) 
+	for (multipleFive = 0; multipleFive * 5 < 1000; multipleFive++) 
 	{
-		result += multiple_5 * 5;
+		result += multipleFive * 5;
 	}
 
 	printf("Answer: %d\n", result);
