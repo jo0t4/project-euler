@@ -8,4 +8,4 @@ This repository contains solutions to some of the mathematical problems proposed
 
 ### License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/jo0t4/project-euler/blob/main/LICENSE) for more information.
+Distributed under the MIT License. See [LICENSE](/LICENSE) for more information.
